@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Footer from './components/Footer';
+import Card from './components/Card';
+import Navbar from './components/Navbar';
+import Wrapper from './components/Wrapper';
+import Jumbotron from './components/Jumbotron';
 
 class App extends Component {
   render() {
