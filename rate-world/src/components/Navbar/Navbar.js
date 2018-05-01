@@ -2,20 +2,25 @@ import React from "react";
 import "./Navbar.css";
 
 const Nav = () => (
-  <nav className="navbar navbar-inverse navbar-top">
-    <div className="container-fluid">
-      <div className="navbar-header">
-        <button type="button" className="collapsed navbar-toggle">
-          <span className="sr-only">Toggle navigation</span>
-          <span className="icon-bar" /> <span className="icon-bar" />
-          <span className="icon-bar" />
-        </button>
-        <a href="/" className="navbar-brand">
-          React Reading List
-        </a>
-      </div>
-    </div>
-  </nav>
-);
+  <div>
+    <nav className="navbar navbar-expand-lg navbar-light  bg-light">
+      <Link className="navbar-brand" to="/">Home</Link>
+      <ul className="navbar-nav">
+        <li className="nav-item">
+          <Link className="nav-link" to="/1">Browser</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/2">Your Profile</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/3">Login</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/4">Sign-up</Link>
+        </li>
+      </ul>
+    </nav>
+  </div>
+)
 
 export default Navbar;
