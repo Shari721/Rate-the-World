@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 
-const Nav = () => (
+const Navbar = () => (
   <nav className="navbar navbar-inverse navbar-top">
     <div className="container-fluid">
       <div className="navbar-header">
